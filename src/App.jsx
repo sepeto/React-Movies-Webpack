@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 // Hooks
-import { useGetCategories } from "./Hooks/useGetCategories";
-import { useGetMoviesTrending } from './Hooks/useGetMoviesTrending';
+import { useGetCategories } from "./Hooks/useGetCategories.js";
+import { useGetMoviesTrending } from './Hooks/useGetMoviesTrending.js';
 // Pages
 import Home from './Page/Home/index.jsx';
 import SingleMovie from './Page/SingleMovie/index.jsx';
