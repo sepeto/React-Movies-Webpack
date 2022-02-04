@@ -7,7 +7,7 @@ export const ContentComingSoon = styled.div`
   margin: 0 0 20px;
   width: 100%;
   .contentSwiper {
-    justify-content: center;
+    justify-content: flex-start;
     .swiper-pagination-bullet {
       background: ${ props => props.theme.colors.gray[70] };
       opacity: 0.6;
@@ -17,7 +17,7 @@ export const ContentComingSoon = styled.div`
       opacity: 1;
     }
     .swiper-wrapper {
-      justify-content: center;
+      justify-content: flex-start;
     }
     .swiper-wrapper {
       @media (min-width: ${ props => props.theme.breakpoints.laptopL }) {
